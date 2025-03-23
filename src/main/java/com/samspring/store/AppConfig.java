@@ -22,7 +22,6 @@ public class AppConfig {
     }
 
     @Bean
-    @Scope("prototype")
     public OrderService orderService() {
 
         if(paymentService.equals("stripe")) {
