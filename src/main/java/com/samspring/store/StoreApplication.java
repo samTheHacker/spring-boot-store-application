@@ -23,7 +23,6 @@ public class StoreApplication {
 
 		var userService = (UserService) context.getBean("userService");
 		userService.registerUser(new User(1L, "sam", "sam@sam.com", "1234567wqer"));
-		userService.registerUser(new User(1L, "sam", "sam@sam.com", "1234567wqer"));
 	}
 
 }
